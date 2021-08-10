@@ -1,0 +1,14 @@
+svg {
+  margin-left: 1rem;
+}
+
+.image__avatar {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+}
+
+.icons {
+  align-items: center;
+  display: flex;
+}

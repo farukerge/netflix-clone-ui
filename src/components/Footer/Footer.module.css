@@ -1,0 +1,31 @@
+footer {
+  background: black;
+}
+
+.linksList {
+  margin: 0;
+  padding: 1.1rem 2rem;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link {
+  flex-basis: 25%;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+
+.link a {
+  color: #808080;
+  text-decoration: none;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.iconLink {
+  margin-right: 1rem;
+}

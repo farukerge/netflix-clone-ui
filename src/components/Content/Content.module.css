@@ -1,0 +1,35 @@
+.content {
+  padding-left: 20px;
+  padding: 0 40px;
+  margin: auto;
+  background: #000;
+}
+
+.title {
+  color: #fff;
+  padding-bottom: 2rem;
+  padding-top: 1.3rem;
+}
+
+.content__posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.content__posters::-webkit-scrollbar {
+  display: none;
+}
+
+.content__poster {
+  max-height: 140px;
+  margin-right: 0.7rem;
+  width: 100%;
+  transition: transfrom 450ms;
+  cursor: pointer;
+}
+
+.content__poster:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
